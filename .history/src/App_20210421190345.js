@@ -9,11 +9,11 @@ class Counter extends Component {
   }
 
   handlePlusButton = () => {
-    this.setState({ count: this.state.count + 1 })
-  }
-
-  handleMinusButton = () => {
-    this.setState({ count: this.state.count -1 })
+    console.log("handlePlusButton")
+    console.log(this.state.count)
+    const count = 4 / 21(水) ～4 / 23(金) 予定: 22.5h
+    ・Udemy: 【はむ式】フロントエンドエンジニアのための React ・ Redux アプリケーション開発入門（合計7.5時間）
+    this.setState({ count: count + 1 })
   }
 
   render() {
@@ -21,7 +21,7 @@ class Counter extends Component {
       <React.Fragment>
         <div>count: {this.state.count}</div>
         <button onClick={this.handlePlusButton}>+1</button>
-        <button onClick={this.handleMinusButton}>-1</button>
+        <button>-1</button>
       </React.Fragment>
     )
   }

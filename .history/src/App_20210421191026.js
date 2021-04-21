@@ -12,9 +12,7 @@ class Counter extends Component {
     this.setState({ count: this.state.count + 1 })
   }
 
-  handleMinusButton = () => {
-    this.setState({ count: this.state.count -1 })
-  }
+  huandle
 
   render() {
     return (

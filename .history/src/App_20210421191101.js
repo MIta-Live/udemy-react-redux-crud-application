@@ -13,7 +13,7 @@ class Counter extends Component {
   }
 
   handleMinusButton = () => {
-    this.setState({ count: this.state.count -1 })
+    this.setState({ count: this})
   }
 
   render() {
