@@ -13,8 +13,7 @@
 const App = () => {
   const profiles = [
     { name: "Taro", age: 10 },
-    { name: "Hanako", age: 5 },
-    { name: "Noname" }
+    { name: "Hanako", age: 5 }
   ]
   return (
     <div>

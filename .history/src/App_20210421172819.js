@@ -13,8 +13,7 @@
 const App = () => {
   const profiles = [
     { name: "Taro", age: 10 },
-    { name: "Hanako", age: 5 },
-    { name: "Noname" }
+    { name: "Hanako", age: 5 }
   ]
   return (
     <div>
@@ -27,13 +26,12 @@ const App = () => {
   )
 }
 
-const User = (props) => {
-  return <div>Hi, I am {props.name}, and {props.age} years old! </div>
+User.defaultProps = {
+  
 }
 
-
-User.defaultProps = {
-  age: 1
+const User = (props) => {
+  return <div>Hi, I am {props.name}, and {props.age} years old! </div>
 }
 
 export default App;
