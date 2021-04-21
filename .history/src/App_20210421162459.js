@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDDD, { Component } from 'react';
 
 class App extends Component {
   render () {
@@ -6,7 +7,7 @@ class App extends Component {
     <React.Fragment>
       <label htmlFor="bar">bar</label>
       <input type="text" onClick={() => { console.log("I am clicked") }} />
-    </React.Fragment>
+    </React.React.Fragment>
     )
   }
 }

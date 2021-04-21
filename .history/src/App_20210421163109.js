@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactDDD, { Component } from 'react';
 
 class App extends Component {
   render () {
